@@ -25,3 +25,13 @@ Berikut adalah data karyawan di perusahaan A.
 Dengan menggunakan data karyawan di atas, aku bisa mengerjakan dengan menggunakan applikasi Google spreadsheet, Excel, LibreOffice atau OpenOffice untuk memplotkan data ini, tentunya di laptop/komputer ku nantinya. 
 
 Akan tetapi kali ini aku akan melakukannya dengan menggunakan ggplot (salah satu library plotting bahasa pemrograman R).
+
+## Solusi Mini Project - Visualisasi Data 1
+
+Grafik kolom kurang cocok untuk menampilkan banyak kategori, dalam hal ini adalah rentang usia karyawan. Ada tujuh kelompok usia dalam tabel data, masing-masing memiliki keterangan sebanyak 11 karakter (huruf). Jika keterangan ini dijejer pada sumbu X, akan melebar dan makan tempat, bukan?
+
+Pilihan yang lebih baik adalah menggunakan dua bar chart yang disusun menjadi piramida. Jenis grafik ini dapat menempatkan batang-batang grafik menjadi lebih berdekatan sehingga menghemat ruang tampilan. Dengan ukuran gambar yang sama seperti grafik sebelumnya, dimungkinkan juga untuk memilih ukuran huruf lebih besar dan lebih terbaca.
+
+Sebagai catatan, ada trik khusus untuk membuatnya di Excel. Pada contoh ini, grafik tersebut sebetulnya terdiri dari dua grafik terpisah, masing-masing untuk laki-laki dan perempuan. Khusus untuk grafik laki-laki, hanya perlu mengubah nilai pada sumbu X menjadi terbaca dari kanan ke kiri (reverse order). Selain itu dapat juga mengubahnya pada jendela Format Data Series dalam Excel.
+
+![hasil1](https://user-images.githubusercontent.com/20991856/133717354-8b09aba3-713d-41be-8168-b5d67380636c.PNG)
